@@ -1,0 +1,153 @@
+html {
+  font-size: 10px;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .logo {
+  color: #9ea2a8;
+  font-size: 3.2rem;
+  line-height: 0;
+}
+.main-header .logo h3 {
+  font-size: 0.6em;
+}
+.header-nav ul {
+  height: 3rem;
+  background-color: #232323;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.main-header .header-nav li {
+  list-style-type: none;
+}
+.main-header .header-nav a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #9ea2a8;
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
+.main-header .header-nav a:hover {
+  color: orange;
+}
+.main-first {
+  background-color: #dedede;
+  width: 35rem;
+  margin: 2rem 0.5rem 2rem 0;
+  padding-bottom: 2rem;
+}
+.main-first h1 {
+  font-size: 4rem;
+  font-style: italic;
+  text-align: left;
+  color: #9ea2a8;
+  padding-left: 2rem;
+}
+.main-first p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #9ea2a8;
+}
+.align-right a {
+  color: orange;
+  float: right;
+}
+
+.main-first a {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+.main-first-image {
+  width: 63rem;
+  height: 30rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-contents img {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem 1rem 2rem 0;
+  float: left;
+}
+.second-contents h2,
+.third-content h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: slategray;
+}
+.second-contents p,
+.third-content p {
+  font-size: 1.5rem;
+  color: #9ea2a8;
+}
+.second-contents a {
+  font-size: 1.5rem;
+}
+.second-contents {
+  width: 30rem;
+}
+.third-content img {
+  width: 21.5rem;
+  height: 10rem;
+}
+.third-content {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.third-contents {
+  width: 21.5rem;
+  margin: 2rem;
+  padding: 0;
+}
+.main-footer {
+  margin-top: 3rem;
+
+  background-color: #333333;
+}
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-footer h4 {
+  color: #9ea2a8;
+}
+
+@media (max-width: 800px) {
+  .main-header,
+  .main-content,
+  .second-content,
+  .third-content,
+  .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
